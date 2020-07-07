@@ -17,7 +17,7 @@ public class CustomerServiceImpl implements  CustomerService {
         if(null==s){
             return "结果为空";
         }else{
-            System.out.println("有结果返回");
+            System.out.println("有结果返回，success");
             return s;
         }
     }
